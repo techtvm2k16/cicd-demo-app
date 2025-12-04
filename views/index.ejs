@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title><%= title %></title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/custom.css" />
+  </head>
+
+  <body class="bg-gray-900 text-gray-100 tracking-wide">
+
+    <!-- HERO SECTION -->
+    <section class="min-h-screen flex items-center justify-center text-center bg-gradient-to-b from-gray-900 to-gray-800 px-6">
+      <div>
+        <h1 class="text-5xl font-extrabold bg-gradient-to-r from-sky-400 to-emerald-400 bg-clip-text text-transparent">
+          Cloud Computing
+        </h1>
+        <p class="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">
+          The on-demand delivery of compute power, storage, databases, and IT resources,
+          available over the internet with pay-as-you-go pricing.
+        </p>
+
+        <a href="#overview"
+          class="mt-8 inline-block px-8 py-3 rounded-full bg-sky-600 hover:bg-sky-500 transition text-white text-lg shadow-lg">
+          Learn More ↓
+        </a>
+      </div>
+    </section>
+
+    <!-- INTRO SECTION -->
+    <section id="overview" class="py-16 px-6 max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4">What is Cloud Computing?</h2>
+      <p class="text-gray-300 leading-relaxed">
+        Cloud computing allows individuals and businesses to use computing resources like
+        servers, storage, databases, networking, and software over the internet, instead of
+        owning and maintaining physical hardware.
+      </p>
+    </section>
+
+    <!-- BENEFITS -->
+    <section class="py-16 bg-gray-800 px-6">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold mb-8 text-center">Key Benefits</h2>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="p-6 rounded-xl bg-gray-900 shadow-lg">
+            <h3 class="text-xl font-semibold mb-2">Scalability</h3>
+            <p class="text-gray-400">
+              Increase or decrease your resources as needed without upfront investments.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-xl bg-gray-900 shadow-lg">
+            <h3 class="text-xl font-semibold mb-2">Cost-Effective</h3>
+            <p class="text-gray-400">
+              Pay only for what you use, with no need to buy expensive servers.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-xl bg-gray-900 shadow-lg">
+            <h3 class="text-xl font-semibold mb-2">Global Access</h3>
+            <p class="text-gray-400">
+              Access your applications from anywhere, anytime, on any device.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICE MODELS -->
+    <section class="py-16 px-6 max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8 text-center">Service Models</h2>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 rounded-xl bg-gray-800 shadow">
+          <h3 class="text-xl font-semibold mb-2">IaaS</h3>
+          <p class="text-gray-400">
+            Infrastructure as a Service — provides virtual servers, networks, and storage.
+          </p>
+        </div>
+
+        <div class="p-6 rounded-xl bg-gray-800 shadow">
+          <h3 class="text-xl font-semibold mb-2">PaaS</h3>
+          <p class="text-gray-400">
+            Platform as a Service — offers tools for developing and deploying applications.
+          </p>
+        </div>
+
+        <div class="p-6 rounded-xl bg-gray-800 shadow">
+          <h3 class="text-xl font-semibold mb-2">SaaS</h3>
+          <p class="text-gray-400">
+            Software as a Service — ready-to-use applications delivered over the internet.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEPLOYMENT MODELS -->
+    <section class="py-16 bg-gray-800 px-6">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold mb-6 text-center">Deployment Models</h2>
+
+        <ul class="space-y-4 text-gray-300">
+          <li>• Public Cloud (AWS, Azure, GCP)</li>
+          <li>• Private Cloud (Dedicated infrastructure)</li>
+          <li>• Hybrid Cloud (Combination of both)</li>
+          <li>• Multi-Cloud (Use of multiple providers)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-8 text-center bg-gray-900 text-gray-500 text-sm">
+      © <%= new Date().getFullYear() %> Cloud Computing Overview · Built with Node.js & Express
+    </footer>
+
+    <script src="/js/main.js"></script>
+  </body>
+</html>
